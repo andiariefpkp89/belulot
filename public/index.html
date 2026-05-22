@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BELULOT - Chatbot Kepegawaian</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="chat-container" class="container hidden">
+    <div class="chat-header">
+      <span>🤖 BELULOT<br/><span style="font-size:0.7rem;opacity:0.85;font-weight:normal;">"Belulot Nyaman, Urusan Kepegawaian Ringan"</span></span>
+      <button id="chat-close">&times;</button>
+    </div>
+    <div id="chat-box" class="chat-box"></div>
+    <form id="chat-form">
+      <input type="text" id="user-input" placeholder="Ketik pertanyaan anda..." autocomplete="off" required />
+      <button type="submit">Kirim</button>
+    </form>
+  </div>
+  <button id="chat-toggle">🤖</button>
+  <script src="script.js"></script>
+</body>
+</html>
