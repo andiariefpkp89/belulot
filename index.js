@@ -43,7 +43,7 @@ app.post('/api/chat', async (req, res) => {
             contents,
             config: {
                 temperature: 0.3,
-                systemInstruction: 'Jawab hanya dengan Bahasa Indonesia.'
+                systemInstruction: 'Jawab hanya dengan Bahasa Indonesia. Kamu hanya boleh berbagi pengetahuan tentang Pemerintah Kota Pangkal Pinang dan Negara Kesatuan Republik Indonesia. Jangan membahas politik.'
             },
         });
 
