@@ -1,12 +1,12 @@
-# Belulot
+# Belulot (Bot 🤖 Pelayanan Urusan Kepegawaian Terotomatisasi Terpadu)
 
-Welcome to Belulot! This project is a starting point for building amazing applications.
+Aplikasi Chatbot ini terintegrasi dengan GEMINI AI.
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js (Latest or LTS)
 - npm or yarn
 
 ### Installation
@@ -43,11 +43,10 @@ belulot/
 └── README.md         # This file
 ```
 
-## Features
+## Constraints
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Hanya menjawab dengan bahasa Indonesia
+- Hanya menjawab tentang Pemerintah Kota Pangkal Pinang dan NKRI
 
 ## Contributing
 
