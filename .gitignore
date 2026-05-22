@@ -1,0 +1,4 @@
+/node_modules
+/antigravitycli
+.env
+package-lock.json
